@@ -1,4 +1,103 @@
-body {
+ body {
+  font-family: 'Poppins', sans-serif;
+  background: 
+    linear-gradient(to bottom, #ccb6e4, #430877),   /* Your gradient */
+    linear-gradient(rgba(255, 255, 255, 0.163) 1px, transparent 1px),    /* Horizontal lines */
+    linear-gradient(90deg, rgba(255, 255, 255, 0.156) 1px, transparent 1px);  /* Vertical lines */
+  background-size: cover, 40px 40px, 40px 40px;     /* Grid spacing */
+  background-blend-mode: overlay;
+  min-height: 100vh;
+  color: rgb(255, 255, 255);
+  padding-top: 60px;
+}
+
+
+    h2 {
+  font-family: 'Passion One', cursive;
+  font-size: 4.0rem;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, #430877);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+    margin-bottom: 30px;
+
+}
+
+
+    h2:hover {
+      transform: scale(1.05);
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      border-radius: 25px;
+      padding: 25px;
+      height: 320px;
+      color: white;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+      transition: all 0.3s ease;
+    }
+    .container {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+    }
+
+    .card-icon {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    .card-title {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+
+    .btn {
+      border-radius: 25px;
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background: linear-gradient(to right, #140ca3, #7170cc);
+      border: none;
+    }
+
+    .btn-success {
+      background: linear-gradient(to right, #035a3e, #65bb9f);
+      border: none;
+    }
+
+    .btn-danger {
+      background: linear-gradient(to right, #6b0707, #f87171);
+      border: none;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    @media (max-width: 767px) {
+      .card {
+        height: auto;
+      }
+    }body {
   font-family: 'Segoe UI', sans-serif;
 }
 
